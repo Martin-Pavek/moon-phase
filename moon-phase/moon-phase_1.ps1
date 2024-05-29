@@ -1,5 +1,4 @@
 ﻿<#
-
 #!/bin/bash
 moonphase(){
   local lp=2551443
@@ -9,9 +8,7 @@ moonphase(){
   local newmoon=592500
   local phase=$((($now - $newmoon) % $lp))
   local phase_number=$((((phase / 86400) + 1)*100000))
-
   # Multiply by 100000 so we can do integer comparison.  Go Bash!
-
   if   [ $phase_number -lt 184566 ];  then phase_icon="new"
   elif [ $phase_number -lt 553699 ];  then phase_icon="waxing crescent"
   elif [ $phase_number -lt 922831 ];  then phase_icon="first quarter"
@@ -25,7 +22,6 @@ moonphase(){
   fi
   echo $phase_icon
 }
-
 moonphase
 #>
 
