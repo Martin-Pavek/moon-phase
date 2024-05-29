@@ -1,7 +1,4 @@
 ﻿cls
-
-
-
 [DateTimeOffset]::Now.ToUnixTimeseconds()
 # naprosto presny toto ^^
 
@@ -14,10 +11,8 @@ echo $s1"--"
 $s11 = [System.Math]::Round($s1)
 echo $s11"===" 
 
-
 $ED = [Math]::Floor(([decimal](Get-Date(Get-Date).ToUniversalTime()-UFormat "%s")))
 echo $ED
-
 
 $s3 = [int64](Get-Date -UFormat %s)
 echo $s3
