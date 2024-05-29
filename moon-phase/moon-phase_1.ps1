@@ -45,4 +45,3 @@ $phase_number = (((($phase / 86400) + 1)*100000))
   else { $phase_icon="new" }
 
   echo $phase_icon
-
