@@ -1,0 +1,28 @@
+
+je otázkou jestli soubor stamp_1.exe který vznikl kompilaci stamp_1.ps, pomoci utility ps2exe
+, kterou jsem popisoval již dříve neměl být vlastně stamp_1.com, protože má velikost menší než 64 Kb
+jestli to pořád ještě plati i dnes, řekl bych že jo, našel jsem několik souboru *.com přímo v 
+instalaci Windows 10 tzn. v adresářích C:\Windows; C:\Windows\System32 apod. ( viz. screenshoty )
+
+v spravci uloh podle screenshotu zabírá varianta com v paměti o trochu měně místa nežli varianta exe
+mám za to že to funguje tak že tesně před spuštěnim souboru si system soubor "očuchá" a podle přípony
+pozná že má procesu rezervovat méně paměti (velikost com < 64 Kb ) ale asi to bylo dulžité spíše
+v minulosti kdy se pamět počítaču ještě počítala na jednotky Mb
+
+možná že to je něco podobnýho jako je potřeba deklarace datovejch typu jak se používají např. v C++
+musi se říct třeba tahle proměnná je typu int to znamená že byde zabirat tolik a tolik byte v paměti
+jiná proměnná je typ long tzn. bude zabírat vice byte apod.
+a vždycky se programovalo hlavně v C#,C++ atd. to byly vždy hlavní nástroje
+takže si řikam že možná tady něco vzniko...
+
+
+závěr : i tak si myslim, že soubor který má po převodu velikost menší než oněch 64 Kb a je označen jako com
+      , nemuže v principu nic skurvit
+
+
+co říká internet o příponě com :
+
+https://cs.wikipedia.org/wiki/COM_(soubor)
+https://cs.wikipedia.org/wiki/P%C5%99%C3%ADpona_souboru
+
+

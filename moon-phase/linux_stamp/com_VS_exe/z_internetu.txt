@@ -1,0 +1,22 @@
+text z internetu
+
+Pochází tento článek z roku 1985? Soubory COM jsou dávno mrtvé, protože jsou pouze DOS, 
+mohou být velké pouze 64 kB a mají mnoho dalších problémů.
+
+Bývaly mnohem jednodušším formátem než EXE, protože jste mohli vytvořit platný spustitelný 
+soubor com s několika řádky v debug.exe nebo v assembleru. Začínám tu být trochu nostalgická...
+-------------------------------------------------------------------------------------------------------------------
+Přípony souborů .com a .exe představují různé typy souborů používaných ve výpočetní technice:
+
+    Soubory .com: V kontextu systémů MS-DOS a Windows je soubor .com typem spustitelného formátu souboru.
+ Tyto soubory se obvykle používají pro aplikace DOS nebo jednoduché nástroje příkazového řádku.
+ Soubory .com se načítají do paměti jako jeden segment a mají limit velikosti souboru 64 kB. Byly běžně
+ používány v počátcích osobních počítačů.
+
+    Soubory .exe: Na druhou stranu soubory .exe jsou spustitelné soubory používané v operačních systémech Windows.
+ Tyto soubory obsahují spustitelný program, který lze spustit operačním systémem. Soubory .exe mohou ve srovnání
+ se soubory .com obsahovat složitější programy a mohou využívat různé zdroje poskytované operačním systémem Windows.
+ Soubory .exe jsou stále široce používány v moderních systémech Windows pro spouštění aplikací a softwaru.
+
+Stručně řečeno, soubory .com jsou starší formát souborů primárně spojený s MS-DOS, zatímco soubory .exe
+ jsou spustitelné soubory používané v operačních systémech Windows ke spouštění aplikací a programů.
