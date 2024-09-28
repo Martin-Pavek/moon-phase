@@ -8,14 +8,14 @@ moonphase(){
 
   # Multiply by 100000 so we can do integer comparison.  Go Bash!
 
-  if   [ $phase_number -lt 184566 ];  then phase_icon="○"  # new
-  elif [ $phase_number -lt 553699 ];  then phase_icon="❩"  # waxing crescent
+  if   [ $phase_number -lt 184566 ];  then phase_icon="○"  # new moon
+  elif [ $phase_number -lt 553699 ];  then phase_icon="❩" # waxing crescent
   elif [ $phase_number -lt 922831 ];  then phase_icon="◗"  # first quarter
-  elif [ $phase_number -lt 1291963 ];  then phase_icon="◑"  # first quarter
-  elif [ $phase_number -lt 1661096 ]; then phase_icon="●"  # full
+  elif [ $phase_number -lt 1291963 ];  then phase_icon="◑" # waxing gibbous
+  elif [ $phase_number -lt 1661096 ]; then phase_icon="●"  # full moon
   elif [ $phase_number -lt 2030228 ]; then phase_icon="◐"  # waning gibbous
-  elif [ $phase_number -lt 2399361 ]; then phase_icon="◖"  # last quarter
-  elif [ $phase_number -lt 2768493 ]; then phase_icon="❨"  # waning crescent
+  elif [ $phase_number -lt 2399361 ]; then phase_icon="◖"  # third quarter
+  elif [ $phase_number -lt 2768493 ]; then phase_icon="❨" # waning crescent
   else
     phase_icon="○"  # new
   fi
