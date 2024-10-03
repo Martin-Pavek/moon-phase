@@ -18,3 +18,13 @@ try {
 	"⚠️ Error in line $($_.InvocationInfo.ScriptLineNumber): $($Error[0])"
 	exit 1
 }
+
+<#
+online verze udela to ze sahne na urcitou url adresu, stahne
+z ní nejakej obsah a zobrazi ho
+taky by ho sam9zdrejme mohla ulozit do nejake promenne a stou pak provect
+nejake porovnani napr. a nebo nejaky vypocet a apod.
+v podstate nic neni nemozne
+#>
+
+
